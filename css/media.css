@@ -1,0 +1,364 @@
+
+/* Media quaries    ======> HOME PAGE <======= */
+
+@media screen and (max-width: 1160px) {
+    .left--block--txt {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .links {
+        margin: 0 20px;
+    }
+    ul li:last-child .links  {
+        margin-right: 0;
+    }
+    ul li:first-child .links  {
+        margin-left: 0;
+    }
+    .phone--numbers {
+        padding-left: 15px;
+    }
+    .cloud--img {
+        bottom: -210px;
+    }
+    .left--block--txt span {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 999px) {
+    .left--block {
+        padding: 30px;
+        padding-right: 0;
+    }
+    .right--block--img {
+        width: 40%;
+    }
+    .left--block--txt span {
+        font-size: 25px;
+    }
+    .left--block--txt {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+    .phone--numbers {
+        display: none;
+    }
+    .mobile--menu--content ul {
+        position: absolute;
+        top: 20%;
+        left: 0;
+    }
+    .links {
+        margin: 0;
+        color: #fff;
+        font-size: 30px;
+        line-height: 70px;
+    }
+    .mobile--con {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .mob--con {
+        font-family: 'Circe-Light';
+        font-size: 24px;
+        color: #fff;
+    }
+    .logo a img {
+        max-width: 77%;
+    }
+    #main--block {
+        background-position: center;
+    }
+    .burger--menu {
+        display: flex;
+    }
+    .cloud--img {
+        bottom: -160px;
+    }
+    .about--text {
+        font-size: 32px;
+    }
+    .send--btn {
+        padding: 25px 80px;
+    }
+    .content--title {
+        font-size: 38px;
+    }
+    .left--content {
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .containeer {
+        flex-direction: column;
+    }
+    .left--block,
+    .right--block {
+        width: 100%;
+        padding: 20px;
+    }
+    .right--block {
+        padding-bottom: 0;
+        text-align: center;
+    }
+    .right--block--img {
+        position: inherit;
+        margin-bottom: -4px;
+        width: 50%;
+    }
+    .about--content {
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    .left--content,
+    .right--content {
+        width: 100%;
+    }
+    .mob--margin {
+        padding-top: 50px;
+    }
+    .cloud--img {
+        bottom: -140px;
+    }
+    .about--text {
+        padding: 0;
+        font-size: 30px;
+    }
+    .news--content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .news--block {
+        width: 40%;
+        margin-top: 40px;
+    }
+    .footer--txt {
+        font-size: 19px;
+    }
+    .footer--title {
+        font-size: 32px;
+    }
+    #footer {
+        padding: 20px 0 30px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .news--block {
+        width: 98%;
+    }
+    .marg {
+        margin: 40px 0 0;
+    }
+    .footer--container {
+        flex-direction: column;
+    }
+    .footer--txt:nth-child(2) {
+        padding: 10px 0;
+    }
+    .footer--txt br {
+        display: none;
+    }
+    .containeer {
+        margin-top: 100px;
+    }
+    .cloud--img {
+        bottom: -105px;
+    }
+    .main--title {
+        font-size: 30px;
+    }
+    .main--txt {
+        font-size: 20px;
+    }
+    .send--btn {
+        padding: 20px 60px;
+    }
+    .margin--class {
+        margin-bottom: 130px;
+    }
+    .about--text {
+        font-size: 27px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .cloud--img {
+        bottom: -87px;
+    }
+    .right--block--img {
+        width: 70%;
+    }
+    .wrapper {
+        padding: 0 14px;
+    }
+    .logo a img {
+        max-width: 65%;
+    }
+    #header {
+        padding: 4px 0;
+    }
+    .burger--menu {
+        width: 40px;
+    }
+    .line {
+        margin-bottom: 9px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .cloud--img {
+        bottom: -80px;
+    }
+    .content--title {
+        font-size: 30px;
+    }
+    .teext {
+        font-size: 20px;
+    }
+    .right--txt div img {
+        padding-top: 4px;
+    }
+    #news--block {
+        padding-top: 0;
+    }
+    .news--title {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width:375px) {
+    .cloud--img {
+        bottom: -70px;
+    }
+    .about--text {
+        font-size: 24px;
+    }
+    .send--btn {
+        font-size: 16px;
+    }
+    .left--block--txt {
+        font-size: 20px;
+    }
+    .left--block--txt span {
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 358px) {
+    .links {
+        line-height: 64px;
+    }
+}
+@media screen and (max-width: 340px) {
+    .footer--txt {
+        font-size: 17px;
+    }
+    .footer--title {
+        font-size: 29px;
+    }
+}
+
+
+/*  /////////////////////////    СТРАНИЦА УСЛУГИ    //////////////////////// */
+
+@media screen and (max-width: 912px) {
+    .us--left {
+        padding-right: 20px;
+    }
+    .us--text--4 {
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 820px) {
+    .us--container {
+        flex-direction: column;
+    }
+    .uslugi--1,
+    .uslugi--4 {
+        position: inherit;
+    }
+    .us--pad--bottom {
+        padding-bottom: 20px;
+    }
+    .us--right img {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 720px) {
+    .us--top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .us--top--title {
+        padding-bottom: 40px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .us--top--title {
+        font-size: 40px;
+    }
+}
+
+
+/* /////////////////////////        СТРАНИЦА "КОНТАКТЫ"      //////////////////////////// */
+
+@media screen and (max-width: 860px) {
+    .con--block {
+        flex-direction: column;
+    }
+    .con--left, .con--right {
+        width: 100%;
+    }
+    .con--right {
+        margin-top: 70px;
+    }
+    .con--phones {
+        padding-left: 0;
+    }
+    .con--left {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    .con--block {
+        padding: 30px 0 50px;;
+    }
+    .con--text {
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .form--value,
+    #message {
+        width: 240px;
+    }
+    .form--value::placeholder,
+    #message::placeholder {
+        font-size: 16px;
+    }
+}
+
+/* ///////////////////////////////      СТРАНИЦА "О НАС"       ///////////////////////// */
+@media screen and (max-width: 660px) {
+    .about--container {
+        padding: 20px 20px 60px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .about--page--text {
+        font-size: 22px;
+        padding: 10px 0 60px;
+    }
+    .about--title {
+        font-size: 34px;
+    }
+    .about--container {
+        margin: 0;
+    }
+    #news--content {
+        padding-bottom: 100px;
+    }
+}
