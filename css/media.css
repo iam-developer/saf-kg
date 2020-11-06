@@ -112,6 +112,15 @@
         margin-bottom: -4px;
         width: 50%;
     }
+    #main--block::before {
+        opacity: 0.4;
+    }
+    .extra--wrapper {
+        padding: 0;
+    }
+    .btn--center {
+        text-align: center;
+    }
     .about--content {
         flex-direction: column;
         padding-top: 100px;
