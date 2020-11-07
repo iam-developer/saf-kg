@@ -8,7 +8,21 @@
     <title>Новости</title>
 </head>
 <body>
-    
+    <!-- Окно обратной связи -->
+    <div class="modal">
+        <div class="modal--content">
+            <div class="con--right--title">Заказать звонок</div>
+            <div class="close--modal" onclick="closeModal();">&times</div>
+            <form action="">
+                <input class="form--value" type="text" placeholder="Введите Ваше имя" required><br>
+                <input class="form--value" type="tel" placeholder="Ваш контактный телефон" required><br>
+                <textarea name="" id="message" rows="5" placeholder="Сообщение" required></textarea><br>
+                <button type="input" class="send--btn contact--btn">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <!-- end -->
+
     <header id="header">
 
         <!-- Mobile--menu -->
@@ -83,7 +97,7 @@
         <div class="wrapper">
             <div class="us--top">
                 <div class="us--top--title news--title">НОВОСТИ</div>
-                <button class="send--btn">Отправить груз</button>
+                <button class="send--btn" onclick="openModal();">Отправить груз</button>
             </div>
             <div class="news--content news--page--content">
                 <div class="news--block news--page--block">
@@ -96,15 +110,15 @@
                 <div class="news--block news--page--block">
                     <img src="../img/news2.png" alt="news2">
                     <div class="news--text">
-                        4 причины, по которым безопасность - самая большая проблема в авиационной отрасли<br><br>
-                        29.09.2020
+                        На что следует обратить внимание, прежде чем нанимать компанию по планированию полетов<br><br>
+                        25.09.2020
                     </div>
                 </div>
                 <div class="news--block news--page--block">
                     <img src="../img/news3.png" alt="news3">
                     <div class="news--text">
-                        4 причины, по которым безопасность - самая большая проблема в авиационной отрасли<br><br>
-                        29.09.2020
+                        Почему SAF - это то место, где можно удовлетворить все потребности авиации?<br><br>
+                        21.09.2020
                     </div>
                 </div>
                 <div class="news--block news--page--block">
@@ -117,15 +131,15 @@
                 <div class="news--block news--page--block">
                     <img src="../img/news2.png" alt="news2">
                     <div class="news--text">
-                        4 причины, по которым безопасность - самая большая проблема в авиационной отрасли<br><br>
-                        29.09.2020
+                        На что следует обратить внимание, прежде чем нанимать компанию по планированию полетов<br><br>
+                        25.09.2020
                     </div>
                 </div>
                 <div class="news--block news--page--block">
                     <img src="../img/news3.png" alt="news3">
                     <div class="news--text">
-                        4 причины, по которым безопасность - самая большая проблема в авиационной отрасли<br><br>
-                        29.09.2020
+                        Почему SAF - это то место, где можно удовлетворить все потребности авиации?<br><br>
+                        21.09.2020
                     </div>
                 </div>
             </div>
