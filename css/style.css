@@ -201,6 +201,9 @@ p, h1 {
     margin-right: 12px;
     cursor: pointer;
 }
+.modal--form {
+    text-align: center;
+}
 
 /* ////////////////////////////////////////////     ГЛАВНАЯ СТРАНИЦА       //////////////////////////////////// */
 
@@ -547,7 +550,7 @@ p, h1 {
     text-align: center;
 }
 .form--value,
-#message {
+.modal--input {
     outline: none;
     padding: 14px;
     border: 1px solid rgb(199, 198, 198);
@@ -556,7 +559,7 @@ p, h1 {
     width: 300px;
 }
 .form--value::placeholder,
-#message::placeholder {
+.modal--input::placeholder {
     font-family: 'Circe-Regular';
     font-size: 18px;
     color: #303030;
