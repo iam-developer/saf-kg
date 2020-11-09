@@ -197,6 +197,10 @@
     .modal--content {
         padding: 40px;
     }
+    #whatsapp--icon a {
+        width: 100px;
+        height: 100px;
+    }
 }
 @media screen and (max-width: 480px) {
     .cloud--img {

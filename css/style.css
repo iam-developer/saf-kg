@@ -43,7 +43,7 @@ p, h1 {
     src: url('../fonts/Circe-Regular.ttf');
 }
 
-#whatsapp--icon a{
+#whatsapp--icon a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,8 +52,8 @@ p, h1 {
     z-index: 9999;
     text-align: center;
     position: fixed;
-    bottom: 15px;
-    right: 15px;
+    bottom: 0;
+    right: 0;
     cursor: pointer;
 }
 
